@@ -1,5 +1,3 @@
-module Kepala
-  VERSION = "0.1.0"
-end
+require "./kepala"
 
-require "./*"
+p Kepala::RSS.read(URI.parse(ARGV[0]))
