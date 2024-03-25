@@ -1,0 +1,13 @@
+name: kepala
+version: 0.1.0
+
+authors:
+  - Stephanie Wilde-Hobbs <git@stephanie.is>
+
+targets:
+  kepala:
+    main: src/main.cr
+
+crystal: '>= 1.11.2'
+
+license: MIT
